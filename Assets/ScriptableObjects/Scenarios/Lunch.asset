@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ed8b90862e437440a626938be12d4aa, type: 3}
+  m_Name: Lunch
+  m_EditorClassIdentifier: 
+  scenarioText: "What\u2019s for lunch?"
+  choices:
+  - optionText: Beef burger
+    carbonImpactKg: 3
+    feedbackText: 
+    countsAsMeal: 1
+    countsAsWork: 0
+    countsAsRelax: 0
+    daysToSkipAfter: 0
+  - optionText: Chicken sandwich
+    carbonImpactKg: 1.5
+    feedbackText: 
+    countsAsMeal: 1
+    countsAsWork: 0
+    countsAsRelax: 0
+    daysToSkipAfter: 0
+  - optionText: Veggie wrap
+    carbonImpactKg: 0.5
+    feedbackText: 
+    countsAsMeal: 1
+    countsAsWork: 0
+    countsAsRelax: 0
+    daysToSkipAfter: 0
+  - optionText: Skip
+    carbonImpactKg: 0
+    feedbackText: 
+    countsAsMeal: 0
+    countsAsWork: 0
+    countsAsRelax: 0
+    daysToSkipAfter: 0
+  category: Food
+  icon: {fileID: 0}

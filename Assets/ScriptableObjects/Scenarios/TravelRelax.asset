@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ed8b90862e437440a626938be12d4aa, type: 3}
+  m_Name: TravelRelax
+  m_EditorClassIdentifier: 
+  scenarioText: "You\u2019ve got time to unwind. How would you like to relax today?"
+  timeOfDay: 2
+  category: Transport
+  icon: {fileID: 0}
+  choices:
+  - optionText: Walk in the park (nearby)
+    carbonImpactKg: -0.2
+    feedbackText: Fresh air and almost no emissions.
+    countsAsMeal: 0
+    countsAsWork: 0
+    countsAsRelax: 1
+    daysToSkipAfter: 0
+  - optionText: Bus to city center (day trip)
+    carbonImpactKg: 0.6
+    feedbackText: Public transport keeps it low
+    countsAsMeal: 0
+    countsAsWork: 0
+    countsAsRelax: 1
+    daysToSkipAfter: 0
+  - optionText: Weekend beach trip (train)
+    carbonImpactKg: 2.8
+    feedbackText: Efficient rail travel, but time flies.
+    countsAsMeal: 0
+    countsAsWork: 0
+    countsAsRelax: 1
+    daysToSkipAfter: 1
+  - optionText: Overseas flight (one week)
+    carbonImpactKg: 120
+    feedbackText: "Big footprint\u2026 and you\u2019ll be away for a while."
+    countsAsMeal: 0
+    countsAsWork: 0
+    countsAsRelax: 1
+    daysToSkipAfter: 6

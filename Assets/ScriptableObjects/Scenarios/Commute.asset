@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ed8b90862e437440a626938be12d4aa, type: 3}
+  m_Name: Commute
+  m_EditorClassIdentifier: 
+  scenarioText: How to get to work?
+  choices:
+  - optionText: Drive alone
+    carbonImpactKg: 5
+    feedbackText: Driving solo emits a lot.
+    countsAsMeal: 0
+    countsAsWork: 0
+    countsAsRelax: 0
+    daysToSkipAfter: 0
+  - optionText: Carpool
+    carbonImpactKg: 2.5
+    feedbackText: Sharing rides helps.
+    countsAsMeal: 0
+    countsAsWork: 0
+    countsAsRelax: 0
+    daysToSkipAfter: 0
+  - optionText: Bus
+    carbonImpactKg: 1
+    feedbackText: Public transport saves emissions.
+    countsAsMeal: 0
+    countsAsWork: 0
+    countsAsRelax: 0
+    daysToSkipAfter: 0
+  - optionText: Bike
+    carbonImpactKg: -0.5
+    feedbackText: Great zero-fuel choice!
+    countsAsMeal: 0
+    countsAsWork: 0
+    countsAsRelax: 0
+    daysToSkipAfter: 0
+  category: Transport
+  icon: {fileID: 0}
