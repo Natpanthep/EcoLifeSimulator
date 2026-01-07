@@ -1,3 +1,5 @@
+This game was created as a university graduation project. It took two weeks to develop but was rejected because it was designed for computers, but the professor wanted a mobile version instead.
+
 # 🌍 EcoLife Simulator
 
 **EcoLife Simulator** is an educational simulation game that encourages players to make environmentally friendly daily-life decisions.  
